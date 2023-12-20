@@ -63,5 +63,9 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
-  color: red;
+  color: hsl(1, 100%, 45%);
+}
+
+.attribution a:hover {
+  color: hsl(1, 100%, 55%);
 }
