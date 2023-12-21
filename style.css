@@ -13,7 +13,7 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@ body {
 
 .container {
   background-color: var(--white);
-  width: 260px;
+  max-width: 20rem;
   border-radius: 0.75rem;
   padding: 1rem;
   margin-bottom: 2rem;
@@ -34,38 +34,23 @@ body {
 }
 
 .container img {
+  display: block;
   width: 100%;
   border-radius: 0.5rem;
 }
 
 .container .text {
-  margin: 0 1.5rem;
+  margin: 0 1.75rem;
   text-align: center;
 }
 
 .container .text h1 {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: var(--Dark-blue);
 }
 
 .container .text p {
   color: var(--Grayish-blue);
-  font-size: 15px;
-}
-
-/* Frontend mentor styles */
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-  text-decoration: none;
-  color: hsl(1, 100%, 45%);
-}
-
-.attribution a:hover {
-  color: hsl(1, 100%, 55%);
+  font-size: .9375rem;
 }
